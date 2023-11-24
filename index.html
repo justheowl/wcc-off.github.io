@@ -1,0 +1,117 @@
+<!Doctype html>
+<html>
+  <head>
+    <meta charset=UTF-8>
+<meta name="viewport" content="width: device-width, initial-scale: 1.0">
+<!--Javascript Function-->
+    <script>
+function myGreeting() {
+var student = prompt("Please Enter Student Name");
+  if (student != null) {
+    document.getElementById("subject").innerHTML = student
+    alert("Logged in as WCCStudent: " + student)
+  }
+}
+    </script>
+<!-- CSS Web Design -->
+    <style>
+        body {
+            padding: 2cm;
+        }
+
+        .body {
+          position: absolute;
+          top:40%;
+          width:90%;
+          height:50%;
+          padding: 2cm, 2cm;
+        }
+        h1 {
+            font-size: 300%;
+            font-weight: 600;
+            font-family: 'Times New Roman', Times, serif;
+            text-align:center;
+            color:#007475;
+            position:fixed;
+            top: 8%;
+            left: 15%
+        }
+
+        h3 {
+          font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+          text-align: left;
+          text-decoration:italic;
+          color:grey;
+          position:fixed;
+          top:15.5%;
+          left:15%;
+        }
+
+        p {
+            font-size:x-large;
+            font-weight:lighter;
+            font-family: Arial, Helvetica, sans-serif;
+            text-align: justify;
+            float:fit-content;
+        }
+
+        #subject {
+            font-size:x-large;
+            font-weight: 100;
+            font-family: Arial, Helvetica, sans-serif;
+            text-align: justify;
+            float:fit-content;
+            color:#00a490;
+        }
+
+        .YouTubeVideo {
+            border-radius:5%;
+            border-color:aqua;
+            border: solid;
+            float:initial;
+        }
+
+        img {
+          height: 12vw;
+          width: 12vw;
+          background:transparent;
+          float:right;
+          position:fixed;
+          top:7%;
+          right: 10%;
+        }
+
+        header {
+          width: 1000%;
+          height: 20%;
+          position: fixed;
+          top: 25%;
+          left: -15%;
+          background:#fff;
+        }
+
+        .topborder {
+          background:#16537e;
+          position: fixed;
+          top:1%;
+          left:-10%;
+          width:1000%;
+          height:10%;
+        }
+        </style>
+  </head>
+    <body onload="myGreeting()">
+      <div class="topborder"></div>
+      <header>
+        <h1>WYNDHAM CENTRAL COLLEGE</h1> <img src="https://www.wyndhamcentralsc.vic.edu.au/wp-content/uploads/2013/03/logo.png?x49935" alt="WynhamCentralCollege Official Logo">
+        <h3>Oficial Student Council Account</h3>
+      </header>
+      <div class="body">
+<p>New Student App Documentation</p>
+      <p>Welcome <span id="subject"></span>  please watch our <span style="color:#16537e; font-weight:200;">MyWCCian App</span> User Guide to help you get started.</p>
+      <iframe width="600" height="338" src="https://www.youtube.com/embed/oHg5SJYRHA0" title="WCC Student App Walkthrough - StudyVictorya" frameborder="0" true="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+
+      <p>The <span style="color:#16537e; font-weight:200;">MyWCCian App</span> was generously designed by one of Wyndham Central College's student. It aims to provide the essential needs and support of each student conveniently with one click from your smartphone. Allow the walkthrough to serve as a guide on how to use the MyWCCian App.</s></p>
+    </div>
+    </body>
+</html>
